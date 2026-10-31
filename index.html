@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YBFC-Studio — 用设计与代码创造非凡</title>
+  <meta name="description" content="YBFC-Studio 是一支专注于品牌设计、网页与产品开发的创意工作室。" />
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="lang-zh">
+
+  <!-- 导航栏 -->
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo"><img src="logo.png" alt="YBFC-Studio" class="nav-logo-img" /></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about"><span class="zh">关于</span><span class="en">About</span></a>
+        <a href="#services"><span class="zh">服务</span><span class="en">Services</span></a>
+        <a href="#works"><span class="zh">作品</span><span class="en">Works</span></a>
+        <a href="#team"><span class="zh">团队</span><span class="en">Team</span></a>
+        <a href="#contact"><span class="zh">联系</span><span class="en">Contact</span></a>
+      </nav>
+      <div class="nav-right">
+        <button class="lang-switch" id="langSwitch" aria-label="切换语言">EN</button>
+        <button class="nav-toggle" id="navToggle" aria-label="菜单">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 首屏 Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-content reveal">
+      <p class="hero-eyebrow">YBFC-STUDIO</p>
+      <h1 class="hero-title">
+        <span class="zh">用设计与代码<br />创造非凡</span>
+        <span class="en">Craft the extraordinary<br />with design &amp; code</span>
+      </h1>
+      <p class="hero-sub">
+        <span class="zh">我们是一支专注于品牌、产品与数字体验的创意工作室。</span>
+        <span class="en">We are a creative studio focused on brand, product, and digital experience.</span>
+      </p>
+      <div class="hero-actions">
+        <a href="#works" class="btn btn-primary"><span class="zh">查看作品</span><span class="en">View Work</span></a>
+        <a href="#contact" class="btn btn-ghost"><span class="zh">联系我们 ›</span><span class="en">Contact Us ›</span></a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <a href="#about" class="scroll-hint" aria-label="向下滚动">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- 关于 -->
+  <section class="section" id="about">
+    <div class="container">
+      <p class="section-eyebrow reveal"><span class="zh">关于我们</span><span class="en">About</span></p>
+      <h2 class="section-title reveal">
+        <span class="zh">把复杂的事情<br />做得简单而优雅</span>
+        <span class="en">Make the complex<br />simple and elegant</span>
+      </h2>
+      <p class="section-lead reveal">
+        <span class="zh">YBFC-Studio 把对细节的偏执变成产品。我们相信好的作品既要有温度的设计，也要有稳健的工程——从一句想法到一个上线项目，我们陪伴每一步。</span>
+        <span class="en">YBFC-Studio turns an obsession with detail into products. We believe good work needs both warm design and solid engineering — from an idea to a shipped project, we are with you every step.</span>
+      </p>
+      <div class="stats reveal">
+        <div class="stat">
+          <span class="stat-num" data-count="6">0</span>
+          <span class="stat-label"><span class="zh">开源项目</span><span class="en">Projects</span></span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="2">0</span>
+          <span class="stat-label"><span class="zh">核心成员</span><span class="en">Members</span></span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="9">0</span>
+          <span class="stat-label"><span class="zh">年经验</span><span class="en">Years</span></span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="100">0</span>
+          <span class="stat-label"><span class="zh">提交次数</span><span class="en">Commits</span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 服务 -->
+  <section class="section section-alt" id="services">
+    <div class="container">
+      <p class="section-eyebrow reveal"><span class="zh">我们能做什么</span><span class="en">What we do</span></p>
+      <h2 class="section-title reveal">
+        <span class="zh">一站式创意与技术</span>
+        <span class="en">End-to-end creativity &amp; engineering</span>
+      </h2>
+      <div class="grid grid-3">
+        <article class="card reveal">
+          <div class="card-icon">◑</div>
+          <h3><span class="zh">品牌设计</span><span class="en">Brand Design</span></h3>
+          <p><span class="zh">从 Logo、视觉规范到完整品牌体系，让团队拥有可被记住的样子。</span><span class="en">From logo and guidelines to a full identity system that people remember.</span></p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">▦</div>
+          <h3><span class="zh">网页开发</span><span class="en">Web Development</span></h3>
+          <p><span class="zh">响应式官网、营销页与 Web 应用，兼顾性能、可访问与美感。</span><span class="en">Responsive sites, landing pages and web apps — performant, accessible, beautiful.</span></p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">◈</div>
+          <h3><span class="zh">产品工程</span><span class="en">Product Engineering</span></h3>
+          <p><span class="zh">从原型到上线，提供网页与小程序的端到端开发。</span><span class="en">From prototype to launch, end-to-end web and mini-program development.</span></p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">✦</div>
+          <h3><span class="zh">创意工具</span><span class="en">Creative Tools</span></h3>
+          <p><span class="zh">我们喜欢把点子做成能用的小工具，并开源分享。</span><span class="en">We love turning ideas into usable tools — and open-sourcing them.</span></p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">⬡</div>
+          <h3><span class="zh">动效体验</span><span class="en">Motion</span></h3>
+          <p><span class="zh">微交互与品牌动效，让界面会呼吸、有节奏。</span><span class="en">Micro-interactions and brand motion that make interfaces breathe.</span></p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">✧</div>
+          <h3><span class="zh">技术咨询</span><span class="en">Consulting</span></h3>
+          <p><span class="zh">架构评审、技术选型与团队陪跑，少走弯路。</span><span class="en">Architecture reviews, tech choices and hands-on mentoring to save detours.</span></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 作品（真实 GitHub 仓库） -->
+  <section class="section" id="works">
+    <div class="container">
+      <p class="section-eyebrow reveal"><span class="zh">精选作品</span><span class="en">Featured works</span></p>
+      <h2 class="section-title reveal">
+        <span class="zh">我们在 GitHub 上做的事</span>
+        <span class="en">What we ship on GitHub</span>
+      </h2>
+      <div class="works">
+        <article class="work reveal">
+          <div class="work-media work-a"></div>
+          <div class="work-text">
+            <h3>Flying-The-Cat</h3>
+            <p><span class="zh">一只会飞的小猫互动网页，轻松又治愈。</span><span class="en">A playful, calming interactive web toy with a flying cat.</span></p>
+            <a class="work-link" href="https://github.com/YBFC-Studio/Flying-The-Cat" target="_blank" rel="noopener"><span class="zh">在 GitHub 查看 ›</span><span class="en">View on GitHub ›</span></a>
+          </div>
+        </article>
+        <article class="work reveal">
+          <div class="work-media work-b"></div>
+          <div class="work-text">
+            <h3>Drawing-Board</h3>
+            <p><span class="zh">像素风却带圆角的在线绘画板，随手就能画。</span><span class="en">A pixel-style yet rounded drawing board, right in the browser.</span></p>
+            <a class="work-link" href="https://github.com/YBFC-Studio/Drawing-Board" target="_blank" rel="noopener"><span class="zh">在 GitHub 查看 ›</span><span class="en">View on GitHub ›</span></a>
+          </div>
+        </article>
+        <article class="work reveal">
+          <div class="work-media work-c"></div>
+          <div class="work-text">
+            <h3>Unicode-X</h3>
+            <p><span class="zh">实用的 Unicode 字符查询与转换工具（Python）。</span><span class="en">A handy Unicode lookup &amp; conversion toolkit (Python).</span></p>
+            <a class="work-link" href="https://github.com/YBFC-Studio/Unicode-X" target="_blank" rel="noopener"><span class="zh">在 GitHub 查看 ›</span><span class="en">View on GitHub ›</span></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 团队 -->
+  <section class="section section-alt" id="team">
+    <div class="container">
+      <p class="section-eyebrow reveal"><span class="zh">核心团队</span><span class="en">Core team</span></p>
+      <h2 class="section-title reveal">
+        <span class="zh">一群较真的人</span>
+        <span class="en">A small team that cares</span>
+      </h2>
+      <div class="grid grid-2">
+        <article class="member reveal">
+          <div class="avatar" style="--c1:#a1c4fd;--c2:#c2e9fb;"></div>
+          <h3>夜半风船</h3>
+          <p><span class="zh">创始人 · 创意与技术</span><span class="en">Founder · Creative &amp; Tech</span></p>
+        </article>
+        <article class="member reveal">
+          <div class="avatar" style="--c1:#ff9a9e;--c2:#fecfef;"></div>
+          <h3>YBFC</h3>
+          <p><span class="zh">核心成员 · 产品与运营</span><span class="en">Core Member · Product &amp; Ops</span></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系 / CTA -->
+  <section class="cta" id="contact">
+    <div class="container reveal">
+      <h2 class="cta-title">
+        <span class="zh">有想法？<br />我们一起把它做出来。</span>
+        <span class="en">Got an idea?<br />Let's build it together.</span>
+      </h2>
+      <p class="cta-sub">
+        <span class="zh">无论是品牌、网站还是一款新产品，欢迎聊聊。</span>
+        <span class="en">Brand, website or a brand-new product — we'd love to chat.</span>
+      </p>
+      <a href="mailto:YBFC-ybfc@outlook.com" class="btn btn-primary btn-lg"><span class="zh">发邮件给我们</span><span class="en">Email us</span></a>
+      <p class="cta-mail">YBFC-ybfc@outlook.com</p>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-logo">YBFC·Studio</span>
+      <span class="footer-copy">© <span id="year"></span> YBFC-Studio. <span class="zh">保留所有权利。</span><span class="en">All rights reserved.</span></span>
+      <nav class="footer-links">
+        <a href="#about"><span class="zh">关于</span><span class="en">About</span></a>
+        <a href="#services"><span class="zh">服务</span><span class="en">Services</span></a>
+        <a href="#works"><span class="zh">作品</span><span class="en">Works</span></a>
+        <a href="#contact"><span class="zh">联系</span><span class="en">Contact</span></a>
+        <a href="https://github.com/YBFC-Studio" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
